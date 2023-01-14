@@ -24,9 +24,9 @@ section.side {
     background-size: 100% 102%;
 }
 
-.side img {
-    width: 200%;
-    max-width: 200%;
+.side video {
+    width: 150%;
+    max-width: 150%;
 }
 
 .login-container {
