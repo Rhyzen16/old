@@ -82,7 +82,7 @@ button {
 
 input {
     width: 100%;
-    background: #e6e6e6;
+    background: gray;
     color: #333;
     letter-spacing: 0.5px;
     padding: 14px 64px;
