@@ -121,7 +121,6 @@ button.submit:hover {
 @media (max-width: 780px) {
 
     body {
-        background-color: blue;
         display: flex;
         justify-content: center;
         align-items: center;
