@@ -20,7 +20,7 @@ section {
 }
 
 section.side {
-    background: url(./images/bk.png) no-repeat;
+    background: url(images/bk.png) no-repeat;
     background-size: 100% 102%;
 }
 
