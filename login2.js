@@ -4,7 +4,7 @@ const events = ["click", "mousemove", "mousedown", "keydown"];
 const body = document.querySelector("body");
 
 window.addEventListener("DOMContentLoaded", () => {
-  if (window.location.pathname === "/loggedUser.html") {
+  if (window.location.pathname === "/login2.html") {
     warningTimeoutID = setTimeout(callTimeoutFunc, 5000);
     events.forEach((event) => {
       window.addEventListener(event, eventHandler);
@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       //    request is sent to the server with user crendentials
       // server has authenticated the user
-      window.location.href = "loggedUser.html";
+      window.location.href = "login.html";
       clearTimeout(warningTimeoutID);
       clearTimeout(logoutTimeoutID);
       events.forEach((event) => {
@@ -32,7 +32,7 @@ function callTimeoutFunc() {
     "you have been inactive for sometime and now you are being loggedout";
   body.prepend(div);
   logoutTimeoutID = setTimeout(() => {
-    window.location.href = "index.html";
+    window.location.href = "login1.html";
   }, 4000);
 }
 
