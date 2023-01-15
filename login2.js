@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       //    request is sent to the server with user crendentials
       // server has authenticated the user
-      window.location.href = "login.html";
+      window.location.href = "index.html";
       clearTimeout(warningTimeoutID);
       clearTimeout(logoutTimeoutID);
       events.forEach((event) => {
@@ -32,7 +32,7 @@ function callTimeoutFunc() {
     "you have been inactive for sometime and now you are being loggedout";
   body.prepend(div);
   logoutTimeoutID = setTimeout(() => {
-    window.location.href = "login1.html";
+    window.location.href = "index.html";
   }, 4000);
 }
 
