@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       //    request is sent to the server with user crendentials
       // server has authenticated the user
-      window.location.href = "index.html";
+      window.location.href = "login2.html";
       clearTimeout(warningTimeoutID);
       clearTimeout(logoutTimeoutID);
       events.forEach((event) => {
