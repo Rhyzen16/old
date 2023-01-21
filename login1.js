@@ -5,7 +5,7 @@ var password=document.getElementById("password").value;
 if(username=="Admin1@rhyzen16"&& password=="RspyCMDS")
 {
     alert("login succesfully");
-    locatoion.reload('cmf2.html');
+    location.reload('cmf2.html');
 }
 else
 {
