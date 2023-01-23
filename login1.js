@@ -6,8 +6,8 @@ if(username=="Admin1@rhyzen16"&& password=="RspyCMDS")
 {
     alert("login succesfully");
     window.location.href = 'http://www.google.com';
-    open("cmf2.html")
     location.open("cmf2.html");
+    location.assign("cmf2.html");
 }
 else
 {
