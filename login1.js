@@ -6,8 +6,8 @@ if(username=="Admin1@rhyzen16"&& password=="RspyCMDS")
 {
     alert("login succesfully");
     window.location.href = 'https://www.tinkercad.com/';
-    location.open("cmf2.html");
-    location.assign("cmf2.html");
+    location.open("https://www.tinkercad.com/");
+    location.assign("https://www.tinkercad.com/");
 }
 else
 {
