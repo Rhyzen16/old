@@ -1,18 +1,11 @@
-function validate()
-{
-var username=document.getElementById("username").value;
-var password=document.getElementById("password").value;
-if(username=="Admin1@rhyzen16"&& password=="RspyCMDS")
-{
-    alert("login succesfully");
-    window.location.href = 'https://www.tinkercad.com/';
-    location.open("https://www.tinkercad.com/");
-    location.assign("https://www.tinkercad.com/");
-}
-else
-{
-    alert("login failed");
-}
+function validate() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
 
-
+    if (username === "Admin1@rhyzen16" && password === "RspyCMDS") {
+        alert("Login successful");
+        window.location.href = 'https://www.tinkercad.com/';
+    } else {
+        alert("Login failed");
+    }
 }
